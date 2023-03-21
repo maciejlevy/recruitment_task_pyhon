@@ -1,0 +1,17 @@
+class UserChoice:
+    MAKE_RESERVATIONS = ["1", "MAKE A RESERVATION"]
+    CANCEL_A_RESERVATION = ["2", "CANCEL A RESERVATION"]
+    PRINT_SCHEDULE = ["3", "PRINT SCHEDULE"]
+    SAVE_SCHEDULE_TO_FILE = ["4", "SAVE SCHEDULE TO FILE"]
+    EXIT = ["5", "EXIT"]
+    LOAD_RESERVATIONS_FROM_FILE = ["6", "LOAD RESERVATIONS FROM FILE"]
+
+
+class FileType:
+    CSV = "CSV"
+    JSON = "JSON"
+
+
+class YesNoUserChoice:
+    YES = "YES"
+    NO = "NO"
